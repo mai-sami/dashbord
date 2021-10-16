@@ -10,7 +10,7 @@ import {
     Tooltip,
     Legend,
     Line,
-     
+
 } from "recharts";
 const data = [
     {
@@ -115,23 +115,23 @@ class RightCharts extends Component {
 
                         </select>
                     </div>
-              
+
                 </div>
                 <br />
 
                 <LineChart
-className="linechart"
-width={600}
+                    className="linechart"
+                    width={600}
                     height={250}
                     data={data}
                     margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
                 >
-                    <CartesianGrid  />
+                    <CartesianGrid />
                     <XAxis dataKey="name" />
                     {/* <YAxis /> */}
 
-                    <Tooltip /> 
-         <Legend />  
+                    <Tooltip />
+                    <Legend />
                     <Line type="monotone" dataKey="pv" stroke="#0090FF" />
                     <Line type="monotone" dataKey="uv" stroke="#DB5AEE" />
                 </LineChart>

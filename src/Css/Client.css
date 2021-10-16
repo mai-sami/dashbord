@@ -1,0 +1,248 @@
+.client{
+     display: block;
+
+}
+.client__div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     width: 77%;
+     margin-top: 22px;
+     padding-right: 50px;
+    margin-left: auto;
+}
+.header__searchInputs {
+    height: 11px;
+    padding: 10px;
+    border: 1.5px solid  #D9E1E7;
+    border-radius:4px;
+    position: relative;
+    text-align: right;
+     font-size: 14px;
+    outline: none;
+    width: 100%;
+  }
+
+
+  .header__searchs {
+    display: flex;
+      align-items: center;
+    border-radius: 24px;
+  }
+  .cli__P{
+      font-size: 20px;
+      font-family: 'A Jannat LT';
+
+  }
+  table {
+      border:  1px solid;
+  }
+
+  #customers{
+      width: 62%;
+       margin-left: auto;
+      border-collapse: collapse;
+direction: rtl;
+text-align: right;
+margin-right: 40px;
+
+margin-top: 44px;
+  }
+  th{
+      font-weight: 400;
+      font-size: 13px;
+      background-color: #F1F4FA;
+  }
+
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 6px;
+  }
+  .check{
+      width: 1%;
+      text-align: center;
+       align-items: center;
+      justify-content: center;
+  }
+  .name{
+      width:6%;
+      text-align: center;
+  }  .names{
+    width:8%;
+    text-align: center;
+}
+ .data{
+     text-align: center;
+     font-size: 13px;
+ }
+
+ .suppp{
+  height: 3vh;
+ }
+ .div__check{
+   display: flex;
+   align-items: center;
+ text-align: center;
+ justify-content: center;
+  }
+
+  .checks{
+    width: 3%;
+    text-align: center;
+     align-items: center;
+     font-size: 13px;
+
+    justify-content: center;
+}
+ 
+.ch{
+  margin-left: 5px;
+width: 15px;
+}
+.sell{
+  height: 15vh;
+  display: flex;
+  direction: rtl;width: 90%;
+  margin: auto;
+  text-align: right;
+  align-items: center;
+  background-color: chb artreuse;
+}
+.esll__p{
+  text-align: right;
+  font-weight: 500;
+  font-size: 22px;
+  font-family: 'A Jannat LT';
+}
+.contant__All{
+  display: flex;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  direction: rtl;
+}
+ .contant{
+   width: 60%;}
+  .contants{
+    width: 40%
+  }
+ .css-10mzr36-MuiGrid-root>.MuiGrid-item{
+   padding-left: 5px !important;
+ }
+ .con__tact{
+   width: 90%;
+   background-color: #ffffff;
+   margin-right: auto;
+   height: 18vh;
+   width: 100% !important;
+   display: flex;
+   justify-content: space-between;
+padding: 22px 28px 22px 28px;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+
+  }
+  .all__items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .all__count{
+    font-weight:400;
+    font-size: 14px;
+  }
+  .num{
+    font-size: 30px;
+    font-weight: 500;
+    color:#1AD598 ;
+  }
+  .css-10mzr36-MuiGrid-root>.MuiGrid-item{
+    margin-left:10px;
+  }
+  .gridsell{
+    height: 18vh;
+      border-radius: 5px;
+      padding: 6px;
+     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+width: 90%;
+     background-color: #ffffff;
+     /* border: 1px solid #707070a1; */
+ }.grid__blockSll{
+  display: flex;
+  padding: 5px 5px 5px 9px;
+  height: 8vh;
+   justify-content: space-between;
+  align-items: center;
+}
+.im__g{
+
+  width: 33px;
+  height: 33px
+}
+.therd__blocksSell{
+  display: flex ;
+  flex-direction: column;
+ 
+   justify-content:space-around;
+  text-align: left;
+}
+.sm__all{
+  font-size: 8px;
+  text-align: left;
+
+  font-weight: 500;
+  color: #1AD598;
+}
+/* progress[value]  
+
+{ background-color: #1AD598; } */
+ 
+
+.prog{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+ 
+.prog {
+  color: lightblue;
+   border-radius: 132px;
+  -webkit-writing-mode: horizontal-tb !important;
+  appearance: auto;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 1vh;
+  width: 10em;
+  vertical-align: -0.2em;
+}
+ 
+
+.prog::-webkit-progress-value {
+  background:  #1AD598; 
+}
+
+.prog::-webkit-progress-bar {
+  background: rgb(222, 222, 240);
+}
+.head__secand{
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+width: 92%;
+margin: auto;
+border-radius: 12px;
+}
+
+.left__button__AllSell{
+  display: flex;
+  align-items: center;
+  width:40%;
+  justify-content: flex-end;
+  padding: 12px;
+}
+
+.reo{
+  display: flex;
+  align-items: center;
+  width: 85%;
+  padding: 44px;
+  margin: auto;
+ }

@@ -5,6 +5,7 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
+import { Link } from 'react-router-dom';
 
 import Collapse from '@mui/material/Collapse';
 import DraftsIcon from '@material-ui/icons/Drafts';
@@ -61,7 +62,10 @@ function Sidebar() {
       <Collapse in={open1} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>
           <ListItemButton sx={{ pl: 12 }}>
+          <Link  to="/client"> 
+
           <ListItemText primary="قائمة العملاء  " />
+          </Link>
 
             <ListItemIcon>
               <StarBorder />
@@ -70,16 +74,20 @@ function Sidebar() {
            </ListItemButton>
          
            <ListItemButton sx={{ pl: 12}}>
-          <ListItemText primary="تذاكر الدعم  " />
+           <Link  to="/teckit"> 
 
+          <ListItemText primary="تذاكر الدعم  " />
+          </Link>
             <ListItemIcon>
               <StarBorder />
             </ListItemIcon>
             
            </ListItemButton>
            <ListItemButton sx={{ pl: 12 }}>
-          <ListItemText primary="  مشاكل العملاء  " />
+           <Link  to="/poblem"> 
 
+          <ListItemText primary="  مشاكل العملاء  " />
+          </Link>
             <ListItemIcon>
               <StarBorder />
             </ListItemIcon>
@@ -100,8 +108,10 @@ function Sidebar() {
        <Collapse in={open2} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>
           <ListItemButton sx={{ pl:7}}>
-          <ListItemText primary="مؤشرات المشتريات" />
+          <Link  to="/sell"> 
 
+          <ListItemText primary="مؤشرات المشتريات" />
+          </Link>
             <ListItemIcon>
               <StarBorder />
             </ListItemIcon>
@@ -109,8 +119,10 @@ function Sidebar() {
            </ListItemButton>
          
            <ListItemButton sx={{ pl:15 }}>
-          <ListItemText primary="الفواتير  " />
+           <Link  to="/invoices"> 
 
+          <ListItemText primary="الفواتير  " />
+          </Link>
             <ListItemIcon>
               <StarBorder />
             </ListItemIcon>
