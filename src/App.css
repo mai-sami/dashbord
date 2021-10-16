@@ -1,38 +1,118 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family:'alfont_coms' ;
+  src: url("./Fonts/alfont_coms.ttf");
+}
+@font-face {
+  font-family:'alfont_com_AAJannatLT' ;
+  src: url("./Fonts/alfont_com_AAJannatLT-.ttf");
+}
+
+
 .App {
   text-align: center;
+  background-color: #809fb83d;
+  width: 100%;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+ .sidebar{
+    float: right;
+   align-items: right;
+   width: 17%;
+   padding-top: 8%;
+ 
+ }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+ .css-cveggr-MuiListItemIcon-root{
+   min-width: 22px !important;
+   color: #809FB8 !important;
+
+ }
+ .css-cvhtoe-MuiButtonBase-root-MuiListItemButton-root{
+align-items: right !important;
+text-align: right !important; 
+color: #809FB8 !important;
+ 
+padding:12px 40px 12px 8px !important;
+ 
+}
+.css-10hburv-MuiTypography-root {
+padding-right: 8px;
+ }
+ .css-i7rae6-MuiList-root{
+  background-color: #809fb800 !important;
+
+ }
+ .css-uob957-MuiListSubheader-root{
+  background-color: transparent !important;
+  color: #809FB8 !important;
+ 
+ }
+ .css-cvhtoe-MuiButtonBase-root-MuiListItemButton-root:hover{
+   color: white !important;
+   background-color: blue !important;
+ }
+ .css-cveggr-MuiListItemIcon-root:hover{
+      color: white !important;
+
+ }
+ .css-cvhtoe-MuiButtonBase-root-MuiListItemButton-root:hover{
+  color: white !important;
+  background-color: blue !important;
+ }
+ 
+ .home{
+   width: 81.5%;
+   background-color: white;
+   border-radius: 12px;
+   height: 100vh;
+   margin:15px auto;
+ }
+ .app{
+   display: flex;
+ }
+ #subheader{
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   font-size: 17px;
+   margin-right: 6px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+ #subheader:hover{
+  color: white !important;
+  background-color: blue !important;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .a:hover{
+    color: white !important;
+    background-color: blue !important; 
   }
+  .active{
+    color: white !important;
+    background-color: blue !important;  
+  }
+  .MuiSvgIcon-root{
+    width: 22px !important;
+   }
+   .actives{
+     padding-left: 10px ;
+   }
+   .notif{
+     color: #809fb8ab;
+     width: 30px !important;
+   }
+
+
+
+   @media (min-width: 900px){
+ 
+.css-1v2c24a-MuiGrid-root>.MuiGrid-item {
+   padding: 4px !important; 
 }
+   }
