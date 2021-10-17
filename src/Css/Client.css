@@ -242,7 +242,77 @@ border-radius: 12px;
 .reo{
   display: flex;
   align-items: center;
-  width: 85%;
-  padding: 44px;
+  width: 88%;
+  padding: 40px;
   margin: auto;
  }
+ .all__input{
+   display: flex;
+   text-align: right;
+   align-items: center;
+   width: 
+   88%;
+   direction: rtl;
+    margin:3px auto;
+   justify-content: space-between;
+ }
+ .section{
+   display: 
+   flex;
+   flex-direction: column;
+   justify-content: right;
+   text-align: right;
+ }
+ .all__input p{
+   text-align: right;
+   font-size: 14px;
+   padding: 5px 0px 5px 0px;
+  }
+
+
+
+ .insert__input{
+  height: 30px;
+  outline: none;
+  width:100%;
+  padding: 2px;
+  color: #809FB8;
+  border-radius: 3px;
+  margin: 3px;
+  border: 1px solid #809fb87c ;
+ }
+ .select{
+   height: 35px;
+   outline: none;
+   padding: 2px;
+font-size: 17px;
+   width: 170px;
+   color: #809FB8;  margin: 3px;
+
+   border-radius: 3px;
+   border: 1px solid #809fb87c ;
+
+ }
+
+
+ .insert__inputs{
+  height: 30px;
+
+  outline: none;
+  width:315px;
+  padding: 2px;
+  color: #809FB8;
+  border-radius: 3px;
+  border: 1px solid #809fb87c ;
+ }
+ .selects{
+  height: 35px;
+  outline: none;
+  padding: 2px;
+font-size: 17px;
+  width: 305px;
+  color: #809FB8;
+  border-radius: 3px;
+  border: 1px solid #809fb87c ;
+
+}
