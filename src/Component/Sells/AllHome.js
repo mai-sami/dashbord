@@ -2,41 +2,43 @@ import React from 'react'
 import Header from '../Header'
 import SellHome from './SellHome';
 import Invoices from './Invoices';
-
 import InsertBills from './InsertBills';
+import SupplierList from './SupplierList';
+import Insertsupplier from './Insertsupplier';
 
-// export default  function AllHome() {
-//     return (
-//         <div className="home">
+import Billsُxchange from './Billsُxchange';
+   function AllHome() {
+    return (
+        <div className="home">
 
-//             <Header />
-//             <SellHome />
-//         </div>
-//     )
-// }
+            <Header />
+            <SellHome />
+        </div>
+    )
+}
 
  
-// export default  function Invoicees() {
-//     return (
-//         <div className="home">
+ function Invoicees() {
+    return (
+        <div className="home">
 
-//             <Header />
-//             <Invoices />
-//         </div>
-//     )
-// }
+            <Header />
+            <Invoices />
+        </div>
+    )
+}
 
-// export default  function Billsُxchanges() {
-//     return (
-//         <div className="home">
+ function Billsُxchanges() {
+    return (
+        <div className="home">
 
-//             <Header />
-//             <Billsُxchange />
-//         </div>
-//     )
-// }
+            <Header />
+            <Billsُxchange />
+        </div>
+    )
+}
 
-export default  function InsertBillss() {
+  function InsertBillss() {
     return (
         <div className="home">
 
@@ -45,3 +47,33 @@ export default  function InsertBillss() {
         </div>
     )
 }
+
+ function SupplierLists() {
+    return (
+        <div className="home">
+
+            <Header />
+            <SupplierList />
+        </div>
+    )
+}
+
+
+
+
+ function Insertsuppliers() {
+    return (
+        <div className="home">
+
+            <Header />
+            <Insertsupplier />
+        </div>
+    )
+}
+
+
+
+
+
+
+export  {Insertsuppliers, SupplierLists, Billsُxchanges,InsertBillss,AllHome,Invoicees}

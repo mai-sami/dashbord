@@ -62,7 +62,7 @@ function Sidebar() {
       <Collapse in={open1} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>
           <ListItemButton sx={{ pl: 12 }}>
-          <Link  to="/client"> 
+          <Link className="Links"  to="/client"> 
 
           <ListItemText primary="قائمة العملاء  " />
           </Link>
@@ -74,7 +74,7 @@ function Sidebar() {
            </ListItemButton>
          
            <ListItemButton sx={{ pl: 12}}>
-           <Link  to="/teckit"> 
+           <Link className="Links"  to="/teckit"> 
 
           <ListItemText primary="تذاكر الدعم  " />
           </Link>
@@ -84,7 +84,7 @@ function Sidebar() {
             
            </ListItemButton>
            <ListItemButton sx={{ pl: 12 }}>
-           <Link  to="/poblem"> 
+           <Link className="Links"  to="/poblem"> 
 
           <ListItemText primary="  مشاكل العملاء  " />
           </Link>
@@ -108,7 +108,7 @@ function Sidebar() {
        <Collapse in={open2} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>
           <ListItemButton sx={{ pl:7}}>
-          <Link  to="/sell"> 
+          <Link className="Links"  to="/sell"> 
 
           <ListItemText primary="مؤشرات المشتريات" />
           </Link>
@@ -119,7 +119,7 @@ function Sidebar() {
            </ListItemButton>
          
            <ListItemButton sx={{ pl:15 }}>
-           <Link  to="/invoices"> 
+           <Link className="Links"  to="/invoices"> 
 
           <ListItemText primary="الفواتير  " />
           </Link>
@@ -129,7 +129,10 @@ function Sidebar() {
             
            </ListItemButton>
            <ListItemButton sx={{ pl: 11 }}>
+           <Link className="Links"  to="/bill"> 
+
           <ListItemText primary="سندات الصرف  " />
+          </Link>
 
             <ListItemIcon>
               <StarBorder />
@@ -137,7 +140,10 @@ function Sidebar() {
             
            </ListItemButton>
            <ListItemButton sx={{ pl: 15 }}>
+           <Link className="Links"  to="/supplier"> 
+
           <ListItemText primary="الموردين  " />
+          </Link>
 
             <ListItemIcon>
               <StarBorder />

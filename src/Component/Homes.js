@@ -5,28 +5,33 @@ import Header from './Header'
 import SupportTickets from './Clients/SupportTickets'
 import ProblemClient from './Clients/ProblemClient'
 
-// export default function Homes() {
-//     return (
-//         <div className="home">
-//           <Header />
-//           <Client />
+ class Homes extends React.Component {
+   render(){
+    return (
+        <div className="home">
+          <Header />
+          <Client />
 
-//         </div>
-//     )
-// }
+        </div>
+    )
+}
+}
 
  
-// export default function Tickit() {
-//     return (
-//         <div className="home">
-//           <Header />
-//           <SupportTickets />
+ class Tickit extends React.Component {
+   render(){
+    return (
+        <div className="home">
+          <Header />
+          <SupportTickets />
 
-//         </div>
-//     )
-// }
+        </div>
+    )
+}
+ }
 
-export default function Poblem() {
+ class  Poblem extends React.Component {
+   render(){
     return (
         <div className="home">
           <Header />
@@ -35,3 +40,6 @@ export default function Poblem() {
         </div>
     )
 }
+ }
+
+export  {Poblem, Tickit, Homes}
